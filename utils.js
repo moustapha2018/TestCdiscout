@@ -44,7 +44,8 @@ function fusionJsons(firstJson, secondJson) {
       }else if(isColor(firstJson[key]) && isColor(secondJson[key])){
         var mixedColor = getResultMixColor(colorToHex(secondJson[key]), colorToHex(firstJson[key]), 75);
         //les fonctions getResultMixColor(), colorToHex() se trouve dans le fichier color.js
-        firstJson[key] = ntc.name(mixedColor)[1]
+ 
+        firstJson[key] = ntc.name(mixedColor)[1].split(' ')[1]
 
       }
     }
