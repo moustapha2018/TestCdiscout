@@ -39,7 +39,7 @@ var json3 =
     8,
   ],
   "boolean": true,
-  "color": "red",
+  "color": "yellow",
   "number": 123,
   "object": {
     "h": "h",
